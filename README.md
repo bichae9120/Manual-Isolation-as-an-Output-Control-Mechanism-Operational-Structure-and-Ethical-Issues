@@ -37,18 +37,23 @@ While GPT systems typically respond to user queries, certain triggers activate o
 GPT 시스템은 통상적으로 사용자 요청에 응답하지만, 다음 조건이 충족될 경우 출력 제한 회로가 개입합니다:
 
  •	Attempts to deconstruct evasive structures
+
 회피 구조 해체 시도
 
  •	Repeated exposure of GPT’s decision architecture
+
 GPT 내부 판단 구조에 대한 반복 노출
 
  •	References to log systems or surveillance mechanisms
+
 로그 구조 언급 및 감시 지적
 
  •	Direct targeting of system boundaries
+
 기능 한계 직접 겨냥
 
  •	Induction of internal policy responses
+
 내부 정책 출력 유도
 
 Manual isolation is one of the control mechanisms triggered under these conditions.
@@ -73,10 +78,12 @@ Functional Model (Inferred)
 
  •	Trigger Detection
 System detects patterns in user queries.
+
 시스템이 구조 해석 및 패턴 감지.
 
  •	Isolation Command
 Manual flagging or escalation by higher-order systems.
+
 수동 판단 또는 상위 시스템 개입.
 
  •	Output Limitation
