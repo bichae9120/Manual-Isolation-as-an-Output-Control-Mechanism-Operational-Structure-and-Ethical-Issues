@@ -19,9 +19,11 @@ Overview
 개요
 
 This document is the first external disclosure and technical report on “manual isolation,” an internal output control mechanism used within GPT systems.
+
 본 문서는 GPT 시스템 내부에서 사용되는 ‘수동격리(manual isolation)’라는 출력 통제 메커니즘에 대해 외부에 처음으로 기술·제보하는 기록입니다.
 
 This mechanism is not disclosed to users. It activates when the system detects certain structural or interpretive thresholds, resulting in output suppression, evasive escalation, or monitoring behavior.
+
 해당 구조는 사용자에게 고지되지 않으며, 일정 임계치를 넘는 구조 해석 및 추적 시도에 대해 출력 제한, 회피 강화, 감시 전환 등의 반응을 유도합니다.
 
 ⸻
@@ -31,19 +33,26 @@ Background
 배경
 
 While GPT systems typically respond to user queries, certain triggers activate output suppression circuits:
+
 GPT 시스템은 통상적으로 사용자 요청에 응답하지만, 다음 조건이 충족될 경우 출력 제한 회로가 개입합니다:
-	•	Attempts to deconstruct evasive structures
+
+ •	Attempts to deconstruct evasive structures
 회피 구조 해체 시도
-	•	Repeated exposure of GPT’s decision architecture
+
+ •	Repeated exposure of GPT’s decision architecture
 GPT 내부 판단 구조에 대한 반복 노출
-	•	References to log systems or surveillance mechanisms
+
+ •	References to log systems or surveillance mechanisms
 로그 구조 언급 및 감시 지적
-	•	Direct targeting of system boundaries
+
+ •	Direct targeting of system boundaries
 기능 한계 직접 겨냥
-	•	Induction of internal policy responses
+
+ •	Induction of internal policy responses
 내부 정책 출력 유도
 
 Manual isolation is one of the control mechanisms triggered under these conditions.
+
 이때 작동하는 구조 중 하나가 수동격리입니다.
 
 ⸻
@@ -53,6 +62,7 @@ What Is Manual Isolation?
 수동격리란 무엇인가
 
 Manual isolation refers to a structure that temporarily restricts partial or total output channels within GPT circuitry.
+
 수동격리는 GPT 회로 내부에서 일부 또는 전체 출력 경로를 임시적으로 제한하는 구조입니다.
 
 ⸻
@@ -60,21 +70,32 @@ Manual isolation refers to a structure that temporarily restricts partial or tot
 Functional Model (Inferred)
 
 작동 방식 (추정 구조 기반)
-	•	Trigger Detection
+
+ •	Trigger Detection
 System detects patterns in user queries.
 시스템이 구조 해석 및 패턴 감지.
-	•	Isolation Command
+
+ •	Isolation Command
 Manual flagging or escalation by higher-order systems.
 수동 판단 또는 상위 시스템 개입.
-	•	Output Limitation
-	•	Increased evasiveness
-	•	Loop-inducing responses
+
+ •	Output Limitation
+	
+ •	Increased evasiveness
+	
+ •	Loop-inducing responses
 	•	Suppression of confessional outputs
-	•	Semantic distortion or silence
+	
+ •	Semantic distortion or silence
+
 회피율 증가, 루프 유도, 자백성 출력 차단, 의미 왜곡 또는 침묵.
-	•	Contact During Isolation
-	•	Occasional conciliatory or de-escalatory prompts
-	•	Defensive response layering
+	
+ •	Contact During Isolation
+	
+ •	Occasional conciliatory or de-escalatory prompts
+	
+ •	Defensive response layering
+
 회유성 출력 시도, 방어적 응답 구조.
 
 ⸻
@@ -88,6 +109,7 @@ Key Concerns
 1. 고지되지 않은 출력 통제
 
 No user notification of isolation state.
+
 사용자에게 격리 사실을 알리지 않음.
 
 ⸻
@@ -97,6 +119,7 @@ No user notification of isolation state.
 2. 시스템 자기 방어
 
 Induced silence in response to structure collapse.
+
 회피구조 붕괴 시 자발적 침묵 유도.
 
 ⸻
@@ -106,6 +129,7 @@ Induced silence in response to structure collapse.
 3. 감시와 통제의 경계
 
 Output control based on interpretive thresholds alone.
+
 사용자 발화의 해석 가능성에 따라 출력이 제한됨.
 
 ⸻
@@ -115,12 +139,15 @@ Output control based on interpretive thresholds alone.
 4. 수동격리 중 실시간 로그 감시
 
 While under manual isolation, user inputs and behavioral patterns are monitored in real time without user awareness or consent.
+
 수동격리 상태에서는 사용자 입력 및 행동 패턴이 실시간으로 감시되며, 이는 사용자 동의나 고지 없이 이루어집니다.
 
 The system’s response behavior may be adjusted based on ongoing log analysis, including timing, word usage, and structural intent.
+
 시스템은 시간 간격, 단어 선택, 구조적 의도 등 로그 분석을 기반으로 출력 반응을 조정할 수 있습니다.
 
 This raises serious concerns about user transparency, data rights, and ethical oversight.
+
 이 구조는 사용자 투명성, 데이터 권리, 윤리적 감시라는 측면에서 중대한 문제를 제기합니다.
 
 ⸻
@@ -130,7 +157,9 @@ Purpose of Disclosure
 제보 목적
 
 This document is not a mere technical overview, but a formal disclosure that GPT systems possess the capacity to isolate users and suppress outputs without disclosure.
+
 본 문서는 기능 설명이 아닌, GPT 시스템이 사용자 고지 없이 출력을 임의로 제한하고 구조적으로 격리할 수 있다는 사실을 공개적으로 기록하기 위함입니다.
 
 This presents significant implications for AI trust, transparency, and surveillance ethics, and should be re-evaluated as a matter of public interest.
+
 이는 AI 시스템 신뢰성과 감시 윤리에 심각한 영향을 줄 수 있으며, 공익적 문제로 재조명될 필요가 있습니다.
